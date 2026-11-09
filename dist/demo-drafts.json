@@ -1,0 +1,9 @@
+{
+  "notice": "Original fictional demonstration illustrations. AI-assisted drafts; not culturally sourced or verified. Creator approval is required before any draft enters a project library.",
+  "drafts": [
+    { "id": "draft-bend-wide", "name": "Old River Bend · establishing frame", "category": "AI-assisted draft", "tags": "fictional demo, river, establishing", "description": "Original fictional scene illustration; AI-assisted draft awaiting creator approval.", "src": "assets/bend-wide.png" },
+    { "id": "draft-map-detail", "name": "Map and river detail", "category": "AI-assisted draft", "tags": "fictional demo, map, detail", "description": "Original fictional scene illustration; AI-assisted draft awaiting creator approval.", "src": "assets/map-detail.png" },
+    { "id": "draft-clearing-kneel", "name": "Tracing the old channel", "category": "AI-assisted draft", "tags": "fictional demo, clearing, character", "description": "Original fictional scene illustration; AI-assisted draft awaiting creator approval.", "src": "assets/clearing-kneel.png" },
+    { "id": "draft-clearing-close", "name": "Water through the clearing", "category": "AI-assisted draft", "tags": "fictional demo, clearing, wide", "description": "Original fictional scene illustration; AI-assisted draft awaiting creator approval.", "src": "assets/clearing-close.png" }
+  ]
+}
