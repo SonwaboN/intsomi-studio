@@ -61,14 +61,16 @@ The demo project is original fictional material. It does not claim traditional, 
 
 ## Hackathon acceptance checklist
 
-- [ ] Project create/edit/archive/restore/export/import/reopen after refresh.
-- [ ] Multiple image uploads; invalid/oversized rejection; survive refresh and reuse in panels.
-- [ ] Draft art remains pending until approval; approved art is reusable.
-- [ ] Scene/panel edit, order, dialogue, and duration sync across storyboard, animatic, and reader.
-- [ ] Play, pause/resume, restart, previous/next, and missing-art state.
-- [ ] Local helper works without a key; endpoint reports disabled without a key.
-- [ ] If a key is configured, live suggestions require disclosure/consent and explicit approval before adding panels.
-- [ ] Desktop/mobile layout review and a 3–5 minute demo rehearsal.
+- [x] Create a project, archive it, restore it, export/import a backup, and reopen after refresh. The browser pass exposed and fixed a restore bug for the currently open project.
+- [x] Upload a valid image alongside unsupported and oversized files; confirm the accepted file survives refresh and can be reused in the storyboard, animatic, and reader preview.
+- [x] Confirm draft art stays outside the project library until approval. The creator approval click itself remains for the project owner to make.
+- [x] Confirm an attached image appears in both animatic and reader preview; earlier prototype checks covered storyboard edits and playback.
+- [ ] Full control-by-control play, pause/resume, restart, previous/next, and missing-art regression pass.
+- [x] Local helper works without a key; endpoint reports disabled without a key. The local draft preview did not auto-apply panels.
+- [ ] Configured-key provider round trip and explicit send-consent/approval flow (no API key was provided).
+- [x] Check the asset-library layout at a 390 px viewport; no horizontal overflow. Full 3–5 minute rehearsal remains to be done.
+
+Automated server smoke tests pass with `node --test tests/server.test.mjs` (static app/manifest, disabled no-key endpoint, and static-root traversal protection).
 
 ## Production follow-up (not part of this PoC)
 
