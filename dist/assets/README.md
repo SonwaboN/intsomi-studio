@@ -1,0 +1,1 @@
+Original fictional AI-assisted draft illustrations for the Intsomi Studio PoC. Each is labeled in the demo and requires creator approval before it is added to a project library. No cultural or traditional provenance is claimed.
