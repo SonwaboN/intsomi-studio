@@ -89,3 +89,9 @@ Only after the hackathon: assess identity and roles, project authorization, clou
 - [x] `node --check` on the two shared ES modules and parse check of the inline app module.
 - [x] `node --test tests/server.test.mjs tests/workflow.test.mjs`.
 - [ ] Full interactive browser regression pass remains unverified. The Windows browser automation layer could not determine the current URL and stopped before interacting with the app.
+
+## Stewardship trail increment
+
+Implemented creator-described material records, separate variants, explicit production links, contextual editor overlays, advisory private review and opt-in printable/downloadable HTML credits. Older backups remain valid; imported project and asset links are remapped.
+
+Validation: 12 Node tests passed, including credit isolation and backup round trips; inline application script syntax passed. Interactive desktop/mobile verification remains outstanding. Demo walkthrough: use the fictional seeded project, copy existing notes, describe the material as original demonstration fiction, link it to a scene and panel, inspect Review, select a credit line and preview the isolated credit sheet.

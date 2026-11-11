@@ -1,3 +1,4 @@
+import { validateMaterials } from './stewardship.mjs';
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const array = value => Array.isArray(value);
 const uniqueIds = (items, label) => {
@@ -43,6 +44,7 @@ export function validateProjectBackup(value) {
       if (bytes > 4 * 1024 * 1024) throw new Error(`Image “${asset.name}” exceeds the 4 MB limit.`);
     }
   }
+  validateMaterials(project);
   return project;
 }
 
@@ -65,5 +67,6 @@ export function prepareImportedProject(project, existingIds, createId) {
     }
   }
   for (const scene of incoming.scenes) for (const panel of scene.panels) if (assetIdMap.has(panel.assetId)) panel.assetId = assetIdMap.get(panel.assetId);
+  for(const m of incoming.materials||[]) for(const l of m.links){if(l.type==='asset'&&assetIdMap.has(l.id))l.id=assetIdMap.get(l.id);if(l.type==='project'&&l.id===project.id)l.id=incoming.id;}
   return { project: incoming, media };
 }

@@ -65,3 +65,13 @@ The Continuity check is deterministic and runs in the browser. It checks only ex
 ## Repository
 
 Public source: [github.com/SonwaboN/intsomi-studio](https://github.com/SonwaboN/intsomi-studio).
+
+## Story stewardship
+
+Open Story stewardship to add creator-described materials and distinct variants. Set a creator-recorded use status, then link records to the project, characters, locations, assets, scenes or panels. Material links buttons open the same workspace over production screens. Review lists advisory attention items and links back to the material and its production uses.
+
+Public credits are opt-in per record. Reader preview can open a separate HTML credit sheet; only selected credit lines are included. Use browser Print / Save as PDF, or download the sheet from the stewardship Credits tab. Internal notes, references and permission fields are excluded. Project JSON backups retain the complete private records.
+
+The feature operates locally without AI. Existing projects need no migration. Copy existing story notes creates an unclassified draft which the creator must describe before saving.
+
+Run all checks with `node --test tests/*.test.mjs`. The stewardship increment has automated coverage for variant/link validation, advisory review, public-credit isolation and import remapping. Desktop/mobile interaction still needs a browser verification pass.
