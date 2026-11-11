@@ -1,4 +1,5 @@
 import { validateMaterials } from './stewardship.mjs';
+import { validateComicPages } from './comic.mjs';
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const array = value => Array.isArray(value);
 const uniqueIds = (items, label) => {
@@ -45,6 +46,16 @@ export function validateProjectBackup(value) {
     }
   }
   validateMaterials(project);
+  validateComicPages(project);
+  if (project.contentLanguages !== undefined && (!Array.isArray(project.contentLanguages) || project.contentLanguages.some(language => typeof language !== 'string' || !language.trim()))) throw new Error('Project content languages must be a list of non-empty language labels.');
+  const textVersionIds = new Set();
+  for (const scene of project.scenes) for (const panel of scene.panels) {
+    if (panel.textVersions !== undefined && !Array.isArray(panel.textVersions)) throw new Error('Panel text versions must be a list.');
+    for (const version of panel.textVersions || []) {
+      if (!object(version) || typeof version.id !== 'string' || !version.id.trim() || textVersionIds.has(version.id) || !['dialogue', 'narration'].includes(version.field) || !['original', 'translated', 'adapted'].includes(version.relationship) || typeof version.language !== 'string' || !version.language.trim() || typeof version.text !== 'string' || typeof version.sourceText !== 'string' || version.status !== 'creator-entered') throw new Error('A panel text version has invalid source, language, relationship, or text.');
+      textVersionIds.add(version.id);
+    }
+  }
   return project;
 }
 

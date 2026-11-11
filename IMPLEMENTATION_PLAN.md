@@ -95,3 +95,13 @@ Only after the hackathon: assess identity and roles, project authorization, clou
 Implemented creator-described material records, separate variants, explicit production links, contextual editor overlays, advisory private review and opt-in printable/downloadable HTML credits. Older backups remain valid; imported project and asset links are remapped.
 
 Validation: 12 Node tests passed, including credit isolation and backup round trips; inline application script syntax passed. Interactive desktop/mobile verification remains outstanding. Demo walkthrough: use the fictional seeded project, copy existing notes, describe the material as original demonstration fiction, link it to a scene and panel, inspect Review, select a credit line and preview the isolated credit sheet.
+
+## Comic creation and isiXhosa interface increment
+
+- Added the Comic page composer with blank pages, ordered shared storyboard-panel references, unplaced-panel tray, adjustable 12-column widths, gutters, image fit, and direct editing of source dialogue and narration.
+- Reader Preview renders composed pages while older/no-page projects retain the sequence preview. Print review routes through the reader and browser print styles.
+- Added creator-entered dialogue/narration versions linked to their panel source field, a project language list, and a reader language selector. No text is translated automatically.
+- Added persistent interface locale selection and external English/isiXhosa JSON locale files. isiXhosa copy is a draft; only core navigation, composer, reader action and language-setting copy is localized. Fluent-speaker review remains required; this is not validated language support.
+- Extended backup validation for pages, panel references and text versions; old backups without page/language fields remain valid.
+
+Verification: 19 Node tests pass, inline module and shared module syntax checks pass, and the local UI rehearsal verified creating a page, placing a panel, adding isiXhosa creator-entered text, preserving it after refresh, and displaying the selected version in Reader Preview. Mobile and browser-native print rendering remain for follow-up.
