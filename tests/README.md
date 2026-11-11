@@ -1,1 +1,1 @@
-Built-in smoke tests for the local Node PoC server. Run them with `node --test tests/server.test.mjs`.
+Run all workflow, comic composition, stewardship, server, and Netlify Function checks with `node --test tests/*.test.mjs`.

@@ -75,3 +75,21 @@ Public credits are opt-in per record. Reader preview can open a separate HTML cr
 The feature operates locally without AI. Existing projects need no migration. Copy existing story notes creates an unclassified draft which the creator must describe before saving.
 
 Run all checks with `node --test tests/*.test.mjs`. The stewardship increment has automated coverage for variant/link validation, advisory review, public-credit isolation and import remapping. Desktop/mobile interaction still needs a browser verification pass.
+
+## Comic page composer
+
+Open **Comic pages** to create blank pages and arrange existing storyboard panels. Each page stores ordered panel references plus presentation settings (width, image fit and gutter); panel dialogue, narration and artwork remain shared with the storyboard and animatic. Panels not placed on a page stay in the tray. Removing a panel or scene clears its page placements while preserving all other panels.
+
+The Reader preview renders composed pages when they exist and falls back to the scene sequence for older projects with no pages. Use **Review print view** in the composer, then **Print / Save as PDF** from Reader preview. Browser print settings control paper size and margins. Creator-entered dialogue and narration can have additional language versions linked to the source panel and field; versions are not translated automatically. JSON backups retain page layouts, language labels and text versions.
+
+## Language experience
+
+The interface-language selector is a browser preference separate from each project's content-language labels. English is the complete interface. The isiXhosa locale is an early draft for the composer, language settings and navigation; it is explicitly marked as unreviewed and has not been validated by fluent creators. The remaining studio interface is still in English. Do not treat this draft as validated language support.
+
+Projects can record multiple creator-entered content language labels. Panel dialogue and narration can carry separately editable original, translated or adapted text versions, each associated with its source field. The creator selects which language appears in Reader preview. Unicode text is stored in project JSON. Intsomi Studio does not perform translation or assess language quality.
+
+## Netlify PoC deployment
+
+Netlify is configured as a static deploy with **publish directory `dist`** and no build command (`netlify.toml`). The optional coordinator and health routes are Netlify Functions under `netlify/functions`; set `OPENAI_API_KEY` in Netlify environment settings to enable the live coordinator. Without a key, the function reports it as unavailable and the browser-local draft helper continues to work. The local `server.mjs` remains for local development and is not deployed as a Netlify server.
+
+The app's projects and image assets remain in the visitor's browser, so a static deployment does not add accounts, cloud persistence, or shared project access. Verify Functions behavior in a Netlify deploy preview before using a live key.

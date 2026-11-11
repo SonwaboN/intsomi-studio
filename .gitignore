@@ -5,6 +5,7 @@ node_modules/
 .sites-checkout/
 .sites-checkout-*/
 .sites-runtime/
+.netlify/
 *.log
 .DS_Store
 Thumbs.db

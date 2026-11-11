@@ -1,0 +1,15 @@
+[build]
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/health"
+  to = "/.netlify/functions/health"
+  status = 200
+
+[[redirects]]
+  from = "/api/production-coordinator"
+  to = "/.netlify/functions/production-coordinator"
+  status = 200
