@@ -30,8 +30,10 @@ Open [http://127.0.0.1:4173](http://127.0.0.1:4173). The seeded project, **The K
 - Image upload validation (PNG, JPEG, WebP, GIF; maximum 4 MB per file), with image bytes in IndexedDB and project metadata in local storage.
 - Four original, fictional, AI-assisted draft illustrations. Each requires an explicit creator approval click before it enters the project library.
 - Reusable approved assets; scenes and panels with editable text, ordering, dialogue, timing, and artwork references.
+- Scene-to-character links and an offline Continuity check for broken character, location, and asset references and invalid panel durations. Findings include record evidence and never edit project content.
+- Asset deletion is disabled while panels reference the asset; the library shows the using scene and panel. Remove those panel links first.
 - Timed animatic and a private reader preview derived from the same scene and panel records.
-- JSON backup export/import with images included in the export and restored into IndexedDB on import.
+- JSON backup export/import with images included in the export and restored into IndexedDB on import. Import validates project structure and image types/sizes before committing records, remaps asset links, and rolls back staged images if saving fails. Imports are limited to 64 MB and each image to 4 MB.
 - A local rule-based panel breakdown helper that works without a key or network access. Suggestions stay drafts until the creator approves them.
 - Optional live Production Coordinator at `/api/production-coordinator`. It is shown only when the server reports an API key. Before sending, the UI discloses that scene text and character/location context will go to OpenAI and requires an explicit consent checkbox. The endpoint returns structured editable panel suggestions and never applies them automatically.
 
@@ -55,6 +57,10 @@ This is a single-user, single-browser PoC. It has no sign-in, cloud sync, collab
 ## Hackathon scope versus production
 
 The PoC demonstrates one reviewable path from a fictional story record to a storyboard, animatic, and reader preview. It does not include a multi-user database, identity/roles, private cloud object storage, revision history, backup service, moderation or rights verification, marketplace, payments, audio, rendered animation, validated translation, or a culturally validated content pipeline. Those require separate product, community, security, and operational work before production use.
+
+## Structural continuity review
+
+The Continuity check is deterministic and runs in the browser. It checks only explicit scene character/location links, panel artwork references, and panel durations. Character links are selected by the creator in the storyboard; the check does not search dialogue or descriptions to guess who appears. Findings cite the affected scene/panel and leave all edits to the creator. It does not validate story meaning, provenance, language, or cultural accuracy.
 
 ## Repository
 

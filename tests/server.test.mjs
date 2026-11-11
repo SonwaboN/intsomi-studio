@@ -31,6 +31,10 @@ test('serves the app and draft manifest', async () => {
   const page = await fetch(`${base}/`);
   assert.equal(page.status, 200);
   assert.match(await page.text(), /Intsomi Studio/);
+  const continuity = await fetch(`${base}/continuity.mjs`);
+  assert.equal(continuity.status, 200);
+  assert.match(continuity.headers.get('content-type'), /javascript/);
+  assert.match(await continuity.text(), /inspectContinuity/);
   const manifest = await fetch(`${base}/demo-drafts.json`);
   assert.equal(manifest.status, 200);
   const data = await manifest.json();

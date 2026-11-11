@@ -75,3 +75,17 @@ Automated server smoke tests pass with `node --test tests/server.test.mjs` (stat
 ## Production follow-up (not part of this PoC)
 
 Only after the hackathon: assess identity and roles, project authorization, cloud object storage, encrypted backups, server-side upload validation, revisions/audit log, contributor consent, deletion/export controls, support and incident response, and community-led review for any language or cultural features. Do not treat this PoC as suitable for sensitive community knowledge or production assets.
+
+## Next PoC increment — structural continuity and data safety
+
+- Added root `AGENTS.md` with the supplied product mission, principles, engineering expectations, agent rules, cultural responsibility, and working protocol.
+- Added explicit creator-selected scene-to-character references and an offline Continuity check for broken character/location/asset links and invalid panel durations. Findings point to project records and never mutate content.
+- Asset Library now shows the scenes/panels using each asset and disables deletion while references remain. The delete action also guards against bypassing the disabled control and removes IndexedDB bytes for unused assets.
+- Backup import validates required project structure, unique record IDs, supported embedded image formats, per-image 4 MB bounds, and a 64 MB backup bound before persistence. It remaps imported asset IDs and panel references; image writes are staged in one IndexedDB transaction and removed if project metadata cannot be saved.
+- Added dependency-free Node tests for the continuity checker, backup validation/remapping, app surface wiring, and `.mjs` static serving.
+
+### Verification
+
+- [x] `node --check` on the two shared ES modules and parse check of the inline app module.
+- [x] `node --test tests/server.test.mjs tests/workflow.test.mjs`.
+- [ ] Full interactive browser regression pass remains unverified. The Windows browser automation layer could not determine the current URL and stopped before interacting with the app.
