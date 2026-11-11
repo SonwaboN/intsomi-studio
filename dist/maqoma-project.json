@@ -1,0 +1,2150 @@
+{
+  "id": "maqoma-demo-v1",
+  "demoKind": "history",
+  "title": "uMaqoma: Umhlaba, abantu nenkumbulo",
+  "language": "isiXhosa",
+  "contentLanguages": [
+    "isiXhosa"
+  ],
+  "creator": "Intsomi Studio · AI-assisted demo draft",
+  "format": "Mini graphic novel",
+  "genre": "Sourced historical narration",
+  "status": "Demo draft — language and artwork review pending",
+  "logline": "Ubunkokeli, umhlaba, uluntu nenkumbulo kaMaqoma.",
+  "synopsis": "Le ncwadi ibalisa ngobomi bukaMaqoma, inkokeli yamaXhosa eyaphila ngexesha lokwanda kolawulo lobukoloniyali eKapa. Ibhalelwe ulutsha nabantu abadala. Sisebenzisa iinkcukacha ezikwimithombo echaziweyo, size sahlule imbali kwimifanekiso eyakhiwe ngobugcisa. Akukho ntetho siyifake emlonyeni wakhe. IsiXhosa sale drafti sisalindele ukuphononongwa ngabantu abasithetha ngokutyibilikayo. Imifanekiso yenziwe ngoncedo lwe-AI; ayibobungqina obuvela kwelo xesha.",
+  "introduction": "Le ncwadi ibalisa ngobomi bukaMaqoma, inkokeli yamaXhosa eyaphila ngexesha lokwanda kolawulo lobukoloniyali eKapa. Ibhalelwe ulutsha nabantu abadala. Sisebenzisa iinkcukacha ezikwimithombo echaziweyo, size sahlule imbali kwimifanekiso eyakhiwe ngobugcisa. Akukho ntetho siyifake emlonyeni wakhe. IsiXhosa sale drafti sisalindele ukuphononongwa ngabantu abasithetha ngokutyibilikayo. Imifanekiso yenziwe ngoncedo lwe-AI; ayibobungqina obuvela kwelo xesha.",
+  "coverAssetId": "maqoma-cover",
+  "story": {
+    "themes": "Umhlaba, ubunkokeli, ukugxothwa, ukuchasa, inkumbulo.",
+    "setting": "Eastern Cape and Robben Island, c.1798–1873; present-day reading in final chapter.",
+    "audience": "Teenage and adult readers",
+    "origin": "Sourced historical narration with original AI-assisted illustrations.",
+    "sourceType": "Historical narration — demo draft",
+    "references": "Chief Maqoma — https://sahistory.org.za/people/chief-maqoma\nXhosa Gallery — Maqoma — https://www.amatholemuseum.co.za/xhosa-gallery\nA Timeline of Robben Island from 1846 to 1891 — https://artsandculture.google.com/story/xAVRytUg9WI7Lg\nMaqoma, Jongumsobomvu (1798–1873) — https://tpy.nelsonmandela.org/peopleplacesevents/maqoma\nThe Memory of Maqoma: An Assessment of Jingqi Oral Tradition in Ciskei and Transkei — https://www.cambridge.org/core/journals/history-in-africa/article/abs/memory-of-maqoma-an-assessment-of-jingqi-oral-tradition-in-ciskei-and-transkei/DB98F99B5F2F69662EEAEABE2FA58C57\nXhosa hero Maqoma dies on Robben Island — https://sahistory.org.za/dated-event/xhosa-hero-maqoma-dies-robben-island",
+    "research": "Individual source and claim records are in Story stewardship and content/maqoma/research.json. Do not treat this summary as verification.",
+    "permission": "No archival images or interview quotations reproduced. Use statuses are creator records, not permission verification.",
+    "attribution": "AI-assisted isiXhosa manuscript and original AI-assisted artwork; fluent-speaker and historical review outstanding.",
+    "context": "All images are new AI-assisted historical interpretations, not archival evidence. Faces, staging, weather and incidental people are reconstructions. No named dialogue, rituals, restricted knowledge or detailed genealogies invented. Plain clothing is a conservative artistic choice, not verified costume documentation. All artwork remains draft pending creator approval.",
+    "adaptation": "No invented dialogue or direct quotations. Scene staging is artistic reconstruction."
+  },
+  "characters": [
+    {
+      "id": "maqoma",
+      "name": "uMaqoma",
+      "role": "Historical subject",
+      "description": "Son of Ngqika; regent during Sandile’s minority; resistance leader. c.1798–1873.",
+      "appearance": "Reference sheet shows interpretive ages 24, 52, 71; not a verified likeness.",
+      "clothing": "Plain earth blanket and undyed shirt are conservative illustrative choices, not certified historical costume.",
+      "personality": "No invented interior motives.",
+      "background": "See source records.",
+      "motivation": "Not inferred.",
+      "notes": "Use age appropriate to scene; no invented speeches."
+    },
+    {
+      "id": "katyi",
+      "name": "uKatyi",
+      "role": "Historical person",
+      "description": "Maqoma’s wife; recorded on Robben Island during first imprisonment.",
+      "appearance": "No verified likeness used; distant illustrative figure only.",
+      "clothing": "Plain period draped clothing; review required.",
+      "notes": "No invented speech or biography."
+    }
+  ],
+  "locations": [
+    {
+      "id": "eastern-cape",
+      "name": "IMpuma Koloni / Kat River",
+      "type": "Historical landscape",
+      "description": "River valleys and mountains in the Eastern Cape.",
+      "geography": "Kat River, Fish River and Keiskamma appear in source accounts.",
+      "context": "Names preserved for traceability.",
+      "architecture": "Dwellings are reconstruction; no claim of exact historic plan.",
+      "rules": "No modern infrastructure in nineteenth-century scenes.",
+      "notes": "Landscapes are illustrative, not surveyed maps."
+    },
+    {
+      "id": "waterkloof",
+      "name": "IWaterkloof",
+      "type": "Forest and mountain",
+      "description": "Forested ravines connected to 1850–53 resistance.",
+      "rules": "Restrained conflict; no graphic violence.",
+      "notes": "No exact battlefield reconstruction."
+    },
+    {
+      "id": "robben-island",
+      "name": "IRobben Island",
+      "type": "Island",
+      "description": "Nineteenth-century confinement, not the modern prison.",
+      "architecture": "Museum describes huts covered with tarpaulins.",
+      "rules": "No twentieth-century cells.",
+      "notes": "Arrival dates differ: 1857/1858."
+    }
+  ],
+  "guide": {
+    "style": "Painted ink, charcoal line and restrained gouache; draft historical interpretation.",
+    "palette": "Ochre, umber, indigo, muted green, warm paper.",
+    "direction": "All images are new AI-assisted historical interpretations, not archival evidence. Faces, staging, weather and incidental people are reconstructions. No named dialogue, rituals, restricted knowledge or detailed genealogies invented. Plain clothing is a conservative artistic choice, not verified costume documentation. All artwork remains draft pending creator approval.",
+    "tone": "Dignified, reflective, accessible.",
+    "structure": "Six chapters, two pages each; two panels per page.",
+    "camera": "Alternating expressive portraits and wide landscapes; captions typeset separately.",
+    "continuity": "Use age reference sheet. Keep faces and earth blanket consistent; no invented ceremonial regalia."
+  },
+  "assets": [
+    {
+      "id": "maqoma-cover",
+      "name": "Iqweqwe · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/cover.jpg"
+    },
+    {
+      "id": "maqoma-reference",
+      "name": "Character age reference · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/reference.jpg"
+    },
+    {
+      "id": "maqoma-art-1",
+      "name": "uMaqoma oselula · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-01.jpg"
+    },
+    {
+      "id": "maqoma-art-2",
+      "name": "Umhlaba waseMpuma Koloni · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-02.jpg"
+    },
+    {
+      "id": "maqoma-art-3",
+      "name": "Ubunkokeli · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-03.jpg"
+    },
+    {
+      "id": "maqoma-art-4",
+      "name": "Uxanduva · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-04.jpg"
+    },
+    {
+      "id": "maqoma-art-5",
+      "name": "IKat River · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-05.jpg"
+    },
+    {
+      "id": "maqoma-art-6",
+      "name": "Ngasemlanjeni · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-06.jpg"
+    },
+    {
+      "id": "maqoma-art-7",
+      "name": "Ukugxothwa · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-07.jpg"
+    },
+    {
+      "id": "maqoma-art-8",
+      "name": "Indawo eshiyiweyo · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-08.jpg"
+    },
+    {
+      "id": "maqoma-art-9",
+      "name": "Ukuchasa · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-09.jpg"
+    },
+    {
+      "id": "maqoma-art-10",
+      "name": "Ukujonga phambili · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-10.jpg"
+    },
+    {
+      "id": "maqoma-art-11",
+      "name": "IWaterkloof · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-11.jpg"
+    },
+    {
+      "id": "maqoma-art-12",
+      "name": "Emva kwemfazwe · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-12.jpg"
+    },
+    {
+      "id": "maqoma-art-13",
+      "name": "Uluntu · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-13.jpg"
+    },
+    {
+      "id": "maqoma-art-14",
+      "name": "Abantu · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-14.jpg"
+    },
+    {
+      "id": "maqoma-art-15",
+      "name": "Idlelo · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-15.jpg"
+    },
+    {
+      "id": "maqoma-art-16",
+      "name": "Imithombo · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-16.jpg"
+    },
+    {
+      "id": "maqoma-art-17",
+      "name": "Ulwandle · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-18.jpg"
+    },
+    {
+      "id": "maqoma-art-18",
+      "name": "ERobben Island · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-18.jpg"
+    },
+    {
+      "id": "maqoma-art-19",
+      "name": "Ukukhululwa · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-02.jpg"
+    },
+    {
+      "id": "maqoma-art-20",
+      "name": "Ukubuya · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-06.jpg"
+    },
+    {
+      "id": "maqoma-art-21",
+      "name": "Ukuvalelwa kwakhona · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-18.jpg"
+    },
+    {
+      "id": "maqoma-art-22",
+      "name": "Inkumbulo · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-18.jpg"
+    },
+    {
+      "id": "maqoma-art-23",
+      "name": "Abafundi · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-16.jpg"
+    },
+    {
+      "id": "maqoma-art-24",
+      "name": "Umhlaba nenkumbulo · draft",
+      "category": "Historical interpretation",
+      "tags": "AI-assisted · draft · review required",
+      "description": "Illustrative reconstruction; not archival evidence. Clothing, faces and staging require historical review. Reuses existing draft artwork; not a new depiction of this event.",
+      "source": "AI-assisted historical interpretation",
+      "approval": "draft",
+      "demoSrc": "art/maqoma/panel-02.jpg"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "maqoma-scene-1",
+      "title": "1 · Ukukhulela kwixesha lenguqu",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "I · Ukukhula nobunkokeli",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-1",
+          "description": "uMaqoma oselula — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "UMaqoma wazalwa malunga nowe-1798. Wayengunyana kaNgqika, inkokeli yamaRharhabe. Namhlanje igama lakhe lisikhokelela kwimbali yomhlaba, yobunkokeli neyokuchasa ukwandiswa kolawulo lobukoloniyali. Kodwa ukuqonda umntu kufuna okungakumbi kunokwazi igama lakhe. Kufuneka sijonge ixesha awayephila kulo, abantu awayenxulumene nabo, neziganeko ezaziguqula ilizwe lakhe. Le ncwadi iqala apho: phakathi kwabantu nomhlaba, ingaqali ngomfanekiso weqhawe elingenazinye iinkalo. Imihla esiyibhalayo isekelwe kwimithombo edweliswe ekupheleni; apho kukho ukungavumelani, asikufihli oko.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-1"
+        },
+        {
+          "id": "maqoma-panel-2",
+          "description": "Umhlaba waseMpuma Koloni — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Imilambo neentaba zale mbali azingomhombiso nje. Zisinceda sibone indawo ekwakuhlalwa kuyo, neendawo ezaziphikiswa xa imida yobukoloniyali yayisanda. Xa sijonga umfanekiso womhlaba, masikhumbule ukuba awusixeleli yonke into ngobomi babantu ababekuloo ndawo. Izindlu esizibonisayo, ukukhanya, neendlela ezihanjwa ngabantu zakhiwe ngobugcisa. Asizibizi ngokuba ngumfanekiso ochanekileyo wosuku oluthile. Sisebenzisa imifanekiso ukuvula indlela yokufunda, size sisebenzise imithombo ukucacisa oko sinokukuthetha ngembali. Umahluko phakathi kwezi zinto ubalulekile kumfundi nakumdali.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-2"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-2",
+      "title": "2 · Ukuthwala uxanduva",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "I · Ukukhula nobunkokeli",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-3",
+          "description": "Ubunkokeli — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Emva kokusweleka kukaNgqika ngowe-1829, uMaqoma waba libambela ngexesha uSandile wayesemncinane. I-Amathole Museum ibeka eli xesha phakathi kowe-1829 nowe-1840. USandile wayengumninawa wakhe ngoyise, yaye kamva wathatha ubunkokeli. Ezi nkcukacha zisinceda singacingi ukuba zonke izikhundla zazifana, okanye ukuba umntu omnye wayemele wonke umntu ngalo lonke ixesha. Ubunkokeli kufuneka bujongwe ngokwexesha nendawo. Apha asongezi izithethe, iinkqubo okanye amazwi esingenabungqina bawo; sigcina ingqalelo kulwalamano oluchazwe kwimithombo esiyifundileyo.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-3"
+        },
+        {
+          "id": "maqoma-panel-4",
+          "description": "Uxanduva — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ukubaliswa kwembali kudla ngokubeka inkokeli embindini womfanekiso. Kule ncwadi sifuna umfundi abone nabantu abamngqongileyo. Imifanekiso yabo ayibonisi abantu esinokubachaza ngamagama avela kumaxwebhu. Ngabantu abakhiwe ngobugcisa ukuze indawo ingabonakali ingenabomi. Asibaniki iingcinga okanye iintetho esithi zenzeka ngokwenene. Lo ngumda esiwubekayo: umntu womfanekiso unokunceda ukubalisa, kodwa akanakuthathwa njengengqina lembali. Ukuthwala uxanduva lokubalisa kuthetha nokwazi ixesha lokuyeka, nokuvuma ukuba kukho izinto esingazaziyo.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-4"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-3",
+      "title": "3 · Umhlaba ngasemlanjeni",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "II · Umhlaba nokugxothwa",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-5",
+          "description": "IKat River — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ngowe-1822 uMaqoma wakha indawo yakhe yolawulo ngaseKat River. I-South African History Online ichaza oku njengenxalenye yokubuyela kumhlaba owawuphikiswa. Umhlaba ophakathi kweFish River neKeiskamma wawusembindini wengxabano nolawulo lwaseKapa. Xa amagama emilambo ebhalwa ephepheni, anokubonakala ngathi yimigca nje. Kodwa ibali lokuhlala emhlabeni alinakuphela kumgca okwimephu. Kule ncwadi amagama eendawo agcinwa ngendlela anokulandelelwa ngayo kwimithombo, ukuze umfundi akwazi ukubuyela kuyo aze aqhubeke nokuphanda ngokwakhe. Umbuzo womhlaba awumi wodwa kule mbali. Udibana nombuzo wokuba ngubani owayenegunya lokumisela imida, nokuba abantu ababehlala apho babejongana njani nezigqibo ezazithathwa ngamagunya awayesanda. La maphepha abeka loo mibuzo phambi komfundi.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-5"
+        },
+        {
+          "id": "maqoma-panel-6",
+          "description": "Ngasemlanjeni — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Khawujonge indlela umlambo owela ngayo emfanekisweni. Lo ngumfanekiso ocingelweyo wendawo, hayi imephu enokulinganiswa. Awubonisi imida eqinisekisiweyo, okanye ilungelo lomntu eliqinisekiswe yile ncwadi. Usimema ukuba sicinge ngobudlelwane phakathi kwendawo nobomi. Imbali yokugxothwa ayifanele ibaliswe ngathi abantu babesuka kwenye indawo baye kwenye ngaphandle kokulahlekelwa. Noko ke, ukuze sihloniphe ubungqina, asibali ilahleko yosapho oluthile esingenalo irekhodi lalo. Sishiya isithuba sokuba uphando olongezelelekileyo luzise iinkcukacha ezingekabikho kule drafti.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-6"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-4",
+      "title": "4 · Ukugxothwa nokubuya",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "II · Umhlaba nokugxothwa",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-7",
+          "description": "Ukugxothwa — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ngowe-1829 imikhosi yobukoloniyali yamgxotha uMaqoma kummandla awayehlala kuwo. I-Amathole Museum iphinda ichaze ukugxothwa kwakhe ngowe-1833. Oku akusosiganeko esinye esinomhla omnye kuphela: kubonisa uxinzelelo olwaluphindaphinda. Kule ngxelo umhlaba uhlala ubuyela embindini, kuba ukugxothwa kwakunxulumene nokwanda kolawulo lwaseKapa. Asifaki ntetho ethi yathethwa ngexesha lokuhamba. Endaweni yoko, sibeka iziganeko ngokulandelelana kwazo, ukuze umfundi abone ukuba le ngxabano yakhula njani ngaphambi kweemfazwe ezalandelayo.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-7"
+        },
+        {
+          "id": "maqoma-panel-8",
+          "description": "Indawo eshiyiweyo — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Umfanekiso wabantu abasendleleni apha ngumfanekiso wokwakha ukuqonda, kungekhona umzobo othathwe kwirekhodi losapho oluthile. Izinto abaziphetheyo zikhethwe ngumzobi, azichazwanga njengoluhlu lwezinto ezathathwa ngaloo mini. Oku kubalulekile xa sibalisa ngokulahlekelwa: ubuhle bomfanekiso mabungasifihli isidingo sobungqina. Sinokuma sijonge indawo engenabantu ngaphambili, kodwa masingacingi ukuba ukuthula kwayo kuthetha ukuba akukho mbali. Ukubuza ukuba ngubani owayelapho, ngubani owanyanzelwa ukuba ahambe, yaye ngubani owabhala ingxelo, yindlela yokufunda ngononophelo.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-8"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-5",
+      "title": "5 · Ukuchasa ukwandiswa kolawulo",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "III · Ukuchasa namacebo emfazwe",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-9",
+          "description": "Ukuchasa — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Kwimfazwe yowe-1834 ukuya kowe-1835, uMaqoma wathatha inxaxheba ekuchaseni ukwandiswa kolawulo lobukoloniyali. Imithombo esiyisebenzisayo inxulumanisa le ngxabano nokuhluthwa komhlaba. Apha asizami ukuguqula imfazwe ibe ngumboniso woloyiso kuphela. Ukuyiqonda kufuna ukubona izinto ezaziphikiswa, amandla awayengalingani, nexesha elide lengxabano. Akukho mazwi omyalelo okanye incoko yamajoni equlunqiweyo kule ncwadi. Into esiyibhala njengembali kufuneka ikwazi ukulandela umkhondo wayo iye kumthombo, kungekhona ekubeni ibonakale inomtsalane kwiphepha.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-9"
+        },
+        {
+          "id": "maqoma-panel-10",
+          "description": "Ukujonga phambili — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Kwiminyaka eyalandelayo ingxabano ayizange iphele. Iindlela zokuchasa, zokuthetha nokufuna uxolo zaziyinxalenye yembali ende. Umfanekiso wenkokeli ejonge kwindawo ekude unokubonakala usixelela iingcinga zayo, kodwa awusixeleli zona. Ngumsebenzi wobugcisa, hayi ubungqina bento eyayisentliziyweni kaMaqoma. Ngenxa yoko asibhali ukuba wayecinga ntoni ngelo xesha. Sigcina umbhalo kwinto echazwe yimithombo, size sivumele umfundi aqonde umahluko phakathi kokutolika umfanekiso nokwazi isiganeko. Imbali iyomelela xa loo mahluko ungacinywanga.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-10"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-6",
+      "title": "6 · Iintaba zaseWaterkloof",
+      "location": "waterkloof",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "III · Ukuchasa namacebo emfazwe",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-11",
+          "description": "IWaterkloof — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ngexesha lemfazwe yowe-1850 ukuya kowe-1853, uMaqoma wakhokela ukuchasa kwiintaba nakumahlathi aseWaterkloof. Iingxelo zembali zigxininisa indlela awayesebenzisa ngayo le ndawo kwiphulo lakhe. Asibonisi isicwangciso esineenkcukacha zohlaselo oluthile, kuba asiphindanga salwakha ngamaxwebhu alo. Endaweni yoko, umfanekiso ugxininisa ukuphakama kweentaba, ukuxinana kwemithi nobunzima bokuhamba. Indawo iyinxalenye yembali, ingengomva ongabalulekanga. Umfundi unokuyibona le nto ngaphandle kokuba umfanekiso uzenze imephu yomkhosi okanye ubungqina beqhinga elithile. Esi sigaba sasiyinxalenye yemfazwe ekwabizwa ngokuba yiMfazwe kaMlanjeni. Igama lendawo nelomfazwe ligcinwa apha ukuze umfundi akwazi ukunxulumanisa esi sahluko nezinye iingxelo, angacingi ukuba libali elizimeleyo ngaphandle kweziganeko ezazisenzeka ngexesha elinye.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-11"
+        },
+        {
+          "id": "maqoma-panel-12",
+          "description": "Emva kwemfazwe — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "I-Amathole Museum ichaza ukuba uMaqoma wathethathethana ngoxolo ngoMatshi wowe-1853. Ukufika kweli nqanaba akucimi iminyaka yokulwa eyandulelayo. Kwaye ukuphela kwemfazwe akusixeleli, kukodwa, ukuba bonke abantu babuyela kubomi ababebuphila ngaphambili. Iphepha lethu liyama apha ukuze litshintshe umbuzo: emva kweengxelo zamadabi, sibabona njani abantu ababephila kuloo mimandla? Ukubalisa ngenkokeli akufanele kusenze silibale olu lwimi lobomi bemihla ngemihla. Amaphepha alandelayo ajonga lo mbuzo ngaphandle kokuyila ubungqina obutsha ngeentsapho ezithile.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-12"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-7",
+      "title": "7 · Ngaphaya kwamadabi",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "IV · Uluntu nemiphumo",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-13",
+          "description": "Uluntu — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Imfazwe inokubhalwa ngemihla, ngamagama eenkokeli nangamagama eendawo. Kodwa loo ndlela yokubhala ayanelanga yodwa. Ukugxothwa emhlabeni kusenza sibuze nangabantu abangabonakali ngokucacileyo kumaxwebhu esinawo. Ngubani owayegcina ikhaya? Ngubani owayezama ukuqhubeka nobomi emva kokuhamba? Le mibuzo ayinampendulo eyilwe kule ncwadi. Siyibeka ukuze umfundi abone ukuba umlando omfutshane unemiqathango. Ukungabikho kwegama kwirekhodi esilifundileyo akuthethi ukuba umntu lowo wayengabalulekanga, okanye ukuba ubomi bakhe abufanelanga kukhunjulwa.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-13"
+        },
+        {
+          "id": "maqoma-panel-14",
+          "description": "Abantu — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Lo mfanekiso wamaqela abantu awubangi ukuba bonke babephila ngendlela enye okanye benezimvo ezifanayo. Iinkcukacha zobuso neentshukumo zakhiwe ukuze iphepha lifundeke, hayi ukuze zibe luhlobo olutsha lobungqina. Umfundi unokufunda imbali ngokubuza ukuba umfanekiso ubonisa ntoni na, kwaye yintoni ongakwaziyo ukuyiqinisekisa. Yiloo nto sibeka amanqaku emithombo ecaleni kwenkqubo yokudala. Umsebenzi wobugcisa unokuba mhle kwaye uchukumise, kodwa ubuhle bawo abuyithathi indawo yophando. Ukubaliswa ngentlonipho kufuna ukuba ezi zinto zihambe kunye.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-14"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-8",
+      "title": "8 · Xa imithombo ingavumelani",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "IV · Uluntu nemiphumo",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-15",
+          "description": "Idlelo — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ngowe-1856 nowe-1857 kwenzeka intlekele yokuxhelwa kweenkomo phakathi kwamaXhosa. Indima kaMaqoma kule ngxaki ayichazwa ngendlela enye kwimithombo esiyifundileyo. Omnye umthombo uthi wathatha inxaxheba; omnye uchaza ubungqina obubonisa ukuba kusenokwenzeka ukuba wayechasa ngokufihlakeleyo. Asikhethi elinye ibali ngokungathi ingxoxo iphelile. Sibhala umahluko kumanqaku ophando. Asibonisi isiprofeto, isithethe okanye incoko esithi yenzeka. Olu khetho alucimi ubunzima bexesha; lugcina umda phakathi koko kubhaliweyo noko bekunokuyilwa.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-15"
+        },
+        {
+          "id": "maqoma-panel-16",
+          "description": "Imithombo — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Xa imithombo ingavumelani, umsebenzi womdali awupheleli ekukhetheni inguqulelo enomtsalane ngakumbi. Unokugcina iingxelo zahlukene, abonise ukuba ngubani ozibhalileyo, aze abhale umbuzo ongakaphendulwa. Kule ncwadi sikhetha loo ndlela. Irekhodi lophando linokwandiswa kamva xa kufumaneka ubungqina obutsha okanye uphononongo olwenziwa ngumntu onolwazi oluthe vetshe. Asithi le drafti lilizwi lokugqibela. Umfundi uyamenywa ukuba alandele imithombo, aqaphele imida yayo, aze abone ukuba ukufunda imbali kungumsebenzi oqhubekayo, onoxanduva lokulungisa xa kufuneka.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-16"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-9",
+      "title": "9 · Ukusiwa eRobben Island",
+      "location": "robben-island",
+      "characterIds": [
+        "maqoma",
+        "katyi"
+      ],
+      "description": "V · Ukuvalelwa nokubuya",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-17",
+          "description": "Ulwandle — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ukusiwa kukaMaqoma eRobben Island kubekwa kowe-1857 yi-Amathole Museum, kanti umgca wexesha weRobben Island Museum ubhala ukufika kwakhe ngowe-1858. Asidibanisi le mihla sithi umba sele usonjululwe. Sibhala u-1857/1858 ukuze umfundi awubone umahluko. UKatyi, inkosikazi yakhe, naye wayekwesi siqithi ngexesha lokuvalelwa kokuqala. Umfanekiso wolwandle awubonisi uhambo olurekhodiweyo ngolo hlobo: uyindlela yobugcisa yokubonisa ukwahlulwa phakathi kwesiqithi nomhlaba omkhulu, ungengobungqina benqanawa, bemozulu okanye bendlela awayehleli ngayo ngexesha lohambo.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-17"
+        },
+        {
+          "id": "maqoma-panel-18",
+          "description": "ERobben Island — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "I-Robben Island Museum ichaza ukuba iinkosi zazihlaliswa kwizindlu ezigqunywe ngeeseyile. Asisebenzisi umfanekiso wesisele sanamhlanje ukuze simele eli xesha. Sekunjalo, izindlu ezikwimizobo yethu azisiyomilinganiselo eqinisekisiweyo yesakhiwo esithile. Ziseyingcaciso eyenziwe ngobugcisa. Ukucacisa oku kukhusela umfundi ekuxubeni amaxesha ahlukeneyo. Isiqithi sinembali ende; le ncwadi ijolise kwixesha likaMaqoma. Asongezi imisebenzi yakhe yosuku, ukutya kwakhe okanye amazwi awawathethayo, kuba ezo nkcukacha azisekelwanga kwiirekhodi eziphononongwe kulo msebenzi. Ulwandle oluphakathi kwesiqithi nomhlaba omkhulu luyabonakala emfanekisweni, kodwa iminyaka yokuvalelwa ayinakulinganiswa ngumfanekiso omnye. Ngoko eli phepha lifundwa kunye nomgca wexesha, ukuze ixesha elide lingaguqulwa libe ngumzuzu omfutshane nje wokujonga indawo.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-18"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-10",
+      "title": "10 · Ukubuyela kumhlaba omkhulu",
+      "location": "eastern-cape",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "V · Ukuvalelwa nokubuya",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-19",
+          "description": "Ukukhululwa — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "UMaqoma wakhululwa ngowe-1869, emva kweminyaka emininzi eRobben Island. I-Nelson Mandela Foundation ichaza iminyaka elishumi elinesibini yokuvalelwa kwakhe. Ukuphuma entolongweni akuzange kuthethe ukuba ingxabano yomhlaba iphelile. Ngokwengxelo yeRobben Island Museum, wazama ukubuyela kumhlaba wakhe kufutshane neBlinkwater, kummandla weKat River. Le ngxelo idibanisa ukubuya kwakhe nembali yokuhluthwa komhlaba eyandulelayo. Umfanekiso wokujonga elunxwemeni usetyenziswa njengotshintsho phakathi kwamaphepha; awubangi ukuba uyawazi umzuzu othile wokufika kwakhe okanye iingcinga awayenazo ngaloo mini.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-19"
+        },
+        {
+          "id": "maqoma-panel-20",
+          "description": "Ukubuya — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Xa umntu ebuyela kwindawo emva kweminyaka emininzi, umbuzo wokuba yintoni eseleyo unamandla kumfundi. Kodwa apha asiwuphenduli ngokuyila inkumbulo kaMaqoma. Sibonisa umhlaba, size sibeke ecaleni kwawo iinkcukacha esinazo. Umfundi makakwazi ukwahlula phakathi kwengcamango evuswa libali nengxelo exhaswa ngumthombo. Le yindlela yokugcina umntu wembali engaguqulwa abe ngumlinganiswa esinokumbhalela nantoni na. Ibali linokufundeka kakuhle ngaphandle kokuba simnike incoko okanye isithembiso esingazange siqinisekiswe. Ukungayili nako sisigqibo sokudala.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-20"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-11",
+      "title": "11 · Ukuvalelwa okwesibini",
+      "location": "robben-island",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "VI · Ukuvalelwa kokugqibela nenkumbulo",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-21",
+          "description": "Ukuvalelwa kwakhona — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ngowe-1871 uMaqoma wabuyiselwa eRobben Island. Umgca wexesha wemyuziyam uchaza ukuba ngeli xesha wayengenaye uKatyi. Ukubuyiselwa kwakhe kwesi siqithi kuvala inxalenye enzima yebali lokubuya kwakhe emhlabeni omkhulu. Sibhala oku ngokuthe ngqo, singafaki ntetho yokuvalelisa okanye umfanekiso esithi ngumzuzu wokugqibela kunye. Isithuba esingazaliswanga ngamazwi sinokuhlala sikhona kwincwadi. Asidingi ukusigcwalisa ukuze ibali libe nentsingiselo. Imida yobungqina iyinxalenye yomsebenzi wethu, njengemigca nemibala esiyisebenzisayo ukwenza iphepha.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-21"
+        },
+        {
+          "id": "maqoma-panel-22",
+          "description": "Inkumbulo — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "UMaqoma wasweleka eRobben Island ngomhla we-9 kuSeptemba wowe-1873. Le ncwadi ayichazi unobangela wokufa kwakhe. Ayibonisi ibhedi yakhe yokugqibela, umntu owayekunye naye okanye amazwi akhe okugqibela. Ezo nkcukacha azikaqinisekiswa kulo msebenzi. Endaweni yoko, umfanekiso ujonga ulwandle nendawo, ushiye imbali ingongezwanga ngomboniso owenziwe ngathi uyinyaniso. Ukukhumbula umntu akusinyanzeli ukuba siyazi yonke into ngaye. Kunokusinyanzela ukuba sithethe ngokucacileyo ngaloo nto siyaziyo, size singayifihli into esingayaziyo.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-22"
+        }
+      ]
+    },
+    {
+      "id": "maqoma-scene-12",
+      "title": "12 · Igama eliqhubeka lifundwa",
+      "location": "robben-island",
+      "characterIds": [
+        "maqoma"
+      ],
+      "description": "VI · Ukuvalelwa kokugqibela nenkumbulo",
+      "purpose": "Sourced narration; no invented dialogue.",
+      "panels": [
+        {
+          "id": "maqoma-panel-23",
+          "description": "Abafundi — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Ubomi bukaMaqoma buqhubeka bufundwa kwiincwadi, kwiimyuziyam nakuphando lweembali ezidluliselwa ngomlomo. UTimothy J. Stapleton wabhala ngenkumbulo kaMaqoma kwizithethe zomlomo zamaJingqi. Kulo msebenzi sifunde inkcazelo yoluntu neereferensi ezibonakalayo zelo nqaku, asifundanga umbhalo walo opheleleyo. Asiboleki mazwi abantu ekwadliwanondlebe nabo. Ukukhankanya uphando akusiniki imvume yokusebenzisa nayiphi na ingxelo ngokungakhathali. Kusikhumbuza ukuba imbali iphila nakubantu, kwaye ukufunda ngakumbi kufuna ukumamela, ukucela imvume xa ifuneka nokugcina imvelaphi yengxelo icacile. Ukugcina amagama emithombo kubalulekile. Kuvumela umntu ofunda ngesiXhosa ukuba abone apho kuvela khona ingxelo, nokuba umthombo ubhalwe ngolunye ulwimi. Ulwimi lwencwadi malungabi sisithintelo ekufikeleleni kuphando; malube yenye indlela yokuluvula kubafundi.",
+          "sound": "",
+          "camera": "Establishing / portrait",
+          "duration": 30,
+          "assetId": "maqoma-art-23"
+        },
+        {
+          "id": "maqoma-panel-24",
+          "description": "Umhlaba nenkumbulo — illustrative reconstruction, not a documented moment.",
+          "dialogue": "",
+          "narration": "Le ncwadi iphela ngomhlaba ovulekileyo, ingapheli ngombuzo wokuba ngubani ophumeleleyo kuphela. Ubomi bukaMaqoma busibuyisela kubunkokeli, ekuchaseni ukuhluthwa komhlaba nakwindlela esikhumbula ngayo abantu. Kumfundi, eli liphepha lokugqibela lebali; kumdali, kusekho umsebenzi wokuphonononga ulwimi, imithombo nemifanekiso. Kwi-Intsomi Studio la manqanaba agcinwa enxulumene, ukuze umbhalo ulungiswe ngaphandle kokuphulukana nomkhondo wawo. Ibali lethu liyidrafti yomboniso. Injongo yalo kukuvula indlela yokufunda nokudala ngesiXhosa, kuhlonitshwe abantu bembali nabafundi abaza kulifunda.",
+          "sound": "",
+          "camera": "Wide or detail",
+          "duration": 30,
+          "assetId": "maqoma-art-24"
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "maqoma-page-1",
+      "title": "1 · Ukukhulela kwixesha lenguqu",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-1",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-2",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-2",
+      "title": "2 · Ukuthwala uxanduva",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-3",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-4",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-3",
+      "title": "3 · Umhlaba ngasemlanjeni",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-5",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-6",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-4",
+      "title": "4 · Ukugxothwa nokubuya",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-7",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-8",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-5",
+      "title": "5 · Ukuchasa ukwandiswa kolawulo",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-9",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-10",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-6",
+      "title": "6 · Iintaba zaseWaterkloof",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-11",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-12",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-7",
+      "title": "7 · Ngaphaya kwamadabi",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-13",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-14",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-8",
+      "title": "8 · Xa imithombo ingavumelani",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-15",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-16",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-9",
+      "title": "9 · Ukusiwa eRobben Island",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-17",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-18",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-10",
+      "title": "10 · Ukubuyela kumhlaba omkhulu",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-19",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-20",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-11",
+      "title": "11 · Ukuvalelwa okwesibini",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-21",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-22",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    },
+    {
+      "id": "maqoma-page-12",
+      "title": "12 · Igama eliqhubeka lifundwa",
+      "gutter": 12,
+      "placements": [
+        {
+          "panelId": "maqoma-panel-23",
+          "order": 0,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        },
+        {
+          "panelId": "maqoma-panel-24",
+          "order": 1,
+          "span": 12,
+          "crop": "contain",
+          "height": 220,
+          "fontSize": 15,
+          "spacing": 1.45,
+          "position": 50
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "saho",
+      "title": "Chief Maqoma",
+      "kind": "Published historical reference",
+      "reference": "https://sahistory.org.za/people/chief-maqoma",
+      "language": "English",
+      "variantOf": "",
+      "status": "Details recorded by creator",
+      "notes": "Biography: birth circa 1798, Ngqika relationship, Kat River settlement 1822, expulsion 1829, 1834–35 war, Waterkloof 1850–53, release 1869 and death 1873. Paraphrase only; no archival images reproduced.\nC01: Maqoma, son of Ngqika, born circa 1798; regent during Sandile's minority, 1829–1840.\nC02: Settlement near Kat River in 1822, forced removal 1829 and again 1833; land central to conflict.\nC03: Resistance in 1834–35 and Waterkloof campaign 1850–53; peace negotiations 1853.\nC04: Dispossession and warfare affected communities. Maqoma's role in cattle killing is disputed in consulted sources.\nUncertainty: Amathole says participated; SAHO biography says evidence suggests covert opposition. No single position assigned to him in narrative; no prophecy reenacted.",
+      "credit": "South African History Online — Chief Maqoma — https://sahistory.org.za/people/chief-maqoma",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "project",
+          "id": "maqoma-demo-v1",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-5",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-5",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-6",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-6",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-5",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-6",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-13",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-13",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-14",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-14",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-15",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-15",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-16",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-16",
+          "relationship": "informs"
+        }
+      ]
+    },
+    {
+      "id": "amathole",
+      "title": "Xhosa Gallery — Maqoma",
+      "kind": "Published historical reference",
+      "reference": "https://www.amatholemuseum.co.za/xhosa-gallery",
+      "language": "English",
+      "variantOf": "",
+      "status": "Details recorded by creator",
+      "notes": "Regency 1829–1840; displacement in 1829 and 1833; peace negotiation 1853; imprisonment dated 1857; return to prison November 1871. Museum narrative, not trial transcript.\nC01: Maqoma, son of Ngqika, born circa 1798; regent during Sandile's minority, 1829–1840.\nC02: Settlement near Kat River in 1822, forced removal 1829 and again 1833; land central to conflict.\nC03: Resistance in 1834–35 and Waterkloof campaign 1850–53; peace negotiations 1853.\nC04: Dispossession and warfare affected communities. Maqoma's role in cattle killing is disputed in consulted sources.\nUncertainty: Amathole says participated; SAHO biography says evidence suggests covert opposition. No single position assigned to him in narrative; no prophecy reenacted.\nC05: First imprisonment 1857/58; Katyi also on island; release 1869 and attempted resettlement.\nUncertainty: 1857 sentence/exile in Amathole vs 1858 arrival in museum timeline. Do not silently reconcile. Sentence length omitted. Individual daily activities and boat journeys illustrated symbolically, not documented episodes.",
+      "credit": "Amathole Museum — Xhosa Gallery — Maqoma — https://www.amatholemuseum.co.za/xhosa-gallery",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "project",
+          "id": "maqoma-demo-v1",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-5",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-5",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-6",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-6",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-5",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-6",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-13",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-13",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-14",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-14",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-15",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-15",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-16",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-16",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-17",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-17",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-18",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-18",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-19",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-19",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-20",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-20",
+          "relationship": "informs"
+        }
+      ]
+    },
+    {
+      "id": "rim",
+      "title": "A Timeline of Robben Island from 1846 to 1891",
+      "kind": "Published historical reference",
+      "reference": "https://artsandculture.google.com/story/xAVRytUg9WI7Lg",
+      "language": "English",
+      "variantOf": "",
+      "status": "Details recorded by creator",
+      "notes": "Timeline dates Maqoma and Katyi's arrival 1858; huts covered with tarpaulins; release 1869; reimprisonment 1871 without Katyi; death 1873; remembrance in 1978. No modern prison cell architecture used.\nC05: First imprisonment 1857/58; Katyi also on island; release 1869 and attempted resettlement.\nUncertainty: 1857 sentence/exile in Amathole vs 1858 arrival in museum timeline. Do not silently reconcile. Sentence length omitted. Individual daily activities and boat journeys illustrated symbolically, not documented episodes.\nC06: Reimprisoned 1871 without wife; died on Robben Island 9 September 1873. History preserved in research, museums and oral accounts.\nUncertainty: Cause and exact circumstances of death not established by this project. No deathbed scene or invented final words. No claim that present-day communities share a single interpretation.",
+      "credit": "Robben Island Museum / Google Arts & Culture — A Timeline of Robben Island from 1846 to 1891 — https://artsandculture.google.com/story/xAVRytUg9WI7Lg",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "project",
+          "id": "maqoma-demo-v1",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-17",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-17",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-18",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-18",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-19",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-19",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-20",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-20",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-21",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-21",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-22",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-22",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-23",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-23",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-24",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-24",
+          "relationship": "informs"
+        }
+      ]
+    },
+    {
+      "id": "mandela",
+      "title": "Maqoma, Jongumsobomvu (1798–1873)",
+      "kind": "Published historical reference",
+      "reference": "https://tpy.nelsonmandela.org/peopleplacesevents/maqoma",
+      "language": "English",
+      "variantOf": "",
+      "status": "Details recorded by creator",
+      "notes": "Land between Fish and Keiskamma, resistance, twelve years on island until 1869, second imprisonment and death.\nC01: Maqoma, son of Ngqika, born circa 1798; regent during Sandile's minority, 1829–1840.\nC05: First imprisonment 1857/58; Katyi also on island; release 1869 and attempted resettlement.\nUncertainty: 1857 sentence/exile in Amathole vs 1858 arrival in museum timeline. Do not silently reconcile. Sentence length omitted. Individual daily activities and boat journeys illustrated symbolically, not documented episodes.",
+      "credit": "Nelson Mandela Foundation — The Presidential Years — Maqoma, Jongumsobomvu (1798–1873) — https://tpy.nelsonmandela.org/peopleplacesevents/maqoma",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "project",
+          "id": "maqoma-demo-v1",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-1",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-2",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-3",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-4",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-9",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-17",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-17",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-18",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-18",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-10",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-19",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-19",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-20",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-20",
+          "relationship": "informs"
+        }
+      ]
+    },
+    {
+      "id": "stapleton",
+      "title": "The Memory of Maqoma: An Assessment of Jingqi Oral Tradition in Ciskei and Transkei",
+      "kind": "Published historical reference",
+      "reference": "https://www.cambridge.org/core/journals/history-in-africa/article/abs/memory-of-maqoma-an-assessment-of-jingqi-oral-tradition-in-ciskei-and-transkei/DB98F99B5F2F69662EEAEABE2FA58C57",
+      "language": "English",
+      "variantOf": "",
+      "status": "Details recorded by creator",
+      "notes": "Public abstract and visible references only consulted, not subscription full text. Establishes oral-history research and differing accounts; not permission to reuse interview testimony.\nC04: Dispossession and warfare affected communities. Maqoma's role in cattle killing is disputed in consulted sources.\nUncertainty: Amathole says participated; SAHO biography says evidence suggests covert opposition. No single position assigned to him in narrative; no prophecy reenacted.\nC06: Reimprisoned 1871 without wife; died on Robben Island 9 September 1873. History preserved in research, museums and oral accounts.\nUncertainty: Cause and exact circumstances of death not established by this project. No deathbed scene or invented final words. No claim that present-day communities share a single interpretation.",
+      "credit": "Timothy J. Stapleton, History in Africa 20 (1993) — The Memory of Maqoma: An Assessment of Jingqi Oral Tradition in Ciskei and Transkei — https://www.cambridge.org/core/journals/history-in-africa/article/abs/memory-of-maqoma-an-assessment-of-jingqi-oral-tradition-in-ciskei-and-transkei/DB98F99B5F2F69662EEAEABE2FA58C57",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "project",
+          "id": "maqoma-demo-v1",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-7",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-13",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-13",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-14",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-14",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-8",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-15",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-15",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-16",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-16",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-21",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-21",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-22",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-22",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-23",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-23",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-24",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-24",
+          "relationship": "informs"
+        }
+      ]
+    },
+    {
+      "id": "death",
+      "title": "Xhosa hero Maqoma dies on Robben Island",
+      "kind": "Published historical reference",
+      "reference": "https://sahistory.org.za/dated-event/xhosa-hero-maqoma-dies-robben-island",
+      "language": "English",
+      "variantOf": "",
+      "status": "Details recorded by creator",
+      "notes": "9 September 1873; this entry dates first capture 1858. Date disagreement retained.\nC06: Reimprisoned 1871 without wife; died on Robben Island 9 September 1873. History preserved in research, museums and oral accounts.\nUncertainty: Cause and exact circumstances of death not established by this project. No deathbed scene or invented final words. No claim that present-day communities share a single interpretation.",
+      "credit": "South African History Online — Xhosa hero Maqoma dies on Robben Island — https://sahistory.org.za/dated-event/xhosa-hero-maqoma-dies-robben-island",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "project",
+          "id": "maqoma-demo-v1",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-11",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-21",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-21",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-22",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-22",
+          "relationship": "informs"
+        },
+        {
+          "type": "scene",
+          "id": "maqoma-scene-12",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-23",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-23",
+          "relationship": "informs"
+        },
+        {
+          "type": "panel",
+          "id": "maqoma-panel-24",
+          "relationship": "informs"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-24",
+          "relationship": "informs"
+        }
+      ]
+    },
+    {
+      "id": "art-process",
+      "title": "AI-assisted visual reconstruction",
+      "kind": "Original demo production record",
+      "reference": "content/maqoma/research.json",
+      "language": "English",
+      "variantOf": "",
+      "status": "Awaiting permission",
+      "notes": "Creator artwork approval pending. Status is a review prompt, not a legal conclusion. No source photographs were copied. Reference sheet is an invented likeness.",
+      "credit": "Imifanekiso yenziwe ngoncedo lwe-AI. Ayibobungqina bembali. IsiXhosa sisalindele ukuphononongwa.",
+      "includeCredit": true,
+      "links": [
+        {
+          "type": "asset",
+          "id": "maqoma-cover",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-reference",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-1",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-2",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-3",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-4",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-5",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-6",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-7",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-8",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-9",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-10",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-11",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-12",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-13",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-14",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-15",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-16",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-17",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-18",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-19",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-20",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-21",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-22",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-23",
+          "relationship": "visual reference for"
+        },
+        {
+          "type": "asset",
+          "id": "maqoma-art-24",
+          "relationship": "visual reference for"
+        }
+      ]
+    }
+  ],
+  "publicationNotes": [
+    {
+      "title": "Amanqaku embali · Imihla",
+      "paragraphs": [
+        "Le ncwadi ibalisa ngobomi bukaMaqoma, inkokeli yamaXhosa eyaphila ngexesha lokwanda kolawulo lobukoloniyali eKapa. Ibhalelwe ulutsha nabantu abadala. Sisebenzisa iinkcukacha ezikwimithombo echaziweyo, size sahlule imbali kwimifanekiso eyakhiwe ngobugcisa. Akukho ntetho siyifake emlonyeni wakhe. IsiXhosa sale drafti sisalindele ukuphononongwa ngabantu abasithetha ngokutyibilikayo. Imifanekiso yenziwe ngoncedo lwe-AI; ayibobungqina obuvela kwelo xesha.",
+        "Malunga nowe-1798: ukuzalwa. 1822: indawo ngaseKat River. 1829: ukugxothwa; ukuqala kwexesha lokuba libambela. 1833: ukugxothwa kwakhona. 1834–1835: imfazwe. 1840: uSandile uthatha ubunkokeli. 1850–1853: ukuchasa eWaterkloof. 1857/1858: ukuvalelwa kokuqala. 1869: ukukhululwa. 1871: ukuvalelwa okwesibini. 9 Septemba 1873: ukusweleka eRobben Island.",
+        "Imithombo ayivumelani ngomhla wokuqala wokuvalelwa, okanye ngendima kaMaqoma ekuxhelweni kweenkomo. Asiwucimi lo mahluko. Unobangela wokufa kwakhe awuchazwa kule ncwadi. Akukho ntetho yakhe equlunqiweyo, okanye isicatshulwa esiguqulelweyo.",
+        "Ubuso, iimpahla, imozulu neendawo zemifanekiso zakhiwe ngobugcisa. Maziphononongwe; azimele zithathwe njengobungqina obusuka kwelo xesha. Umbhalo wesiXhosa usalindele uphononongo."
+      ]
+    },
+    {
+      "title": "Imithombo nemibulelo",
+      "paragraphs": [
+        "South African History Online — Chief Maqoma — https://sahistory.org.za/people/chief-maqoma",
+        "Amathole Museum — Xhosa Gallery — Maqoma — https://www.amatholemuseum.co.za/xhosa-gallery",
+        "Robben Island Museum / Google Arts & Culture — A Timeline of Robben Island from 1846 to 1891 — https://artsandculture.google.com/story/xAVRytUg9WI7Lg",
+        "Nelson Mandela Foundation — The Presidential Years — Maqoma, Jongumsobomvu (1798–1873) — https://tpy.nelsonmandela.org/peopleplacesevents/maqoma",
+        "Timothy J. Stapleton, History in Africa 20 (1993) — The Memory of Maqoma: An Assessment of Jingqi Oral Tradition in Ciskei and Transkei — https://www.cambridge.org/core/journals/history-in-africa/article/abs/memory-of-maqoma-an-assessment-of-jingqi-oral-tradition-in-ciskei-and-transkei/DB98F99B5F2F69662EEAEABE2FA58C57",
+        "South African History Online — Xhosa hero Maqoma dies on Robben Island — https://sahistory.org.za/dated-event/xhosa-hero-maqoma-dies-robben-island",
+        "Imifanekiso yenziwe ngoncedo lwe-AI. Ayibobungqina bembali. IsiXhosa sisalindele ukuphononongwa."
+      ]
+    }
+  ]
+}

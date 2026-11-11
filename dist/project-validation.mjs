@@ -46,6 +46,10 @@ export function validateProjectBackup(value) {
     }
   }
   validateMaterials(project);
+  if (project.coverAssetId !== undefined && (typeof project.coverAssetId !== 'string' || !project.assets.some(a=>a.id===project.coverAssetId))) throw new Error('Cover artwork reference is invalid.');
+  if (project.publicationNotes !== undefined && (!Array.isArray(project.publicationNotes) || project.publicationNotes.some(n=>!object(n)||typeof n.title!=='string'||!Array.isArray(n.paragraphs)||n.paragraphs.some(t=>typeof t!=='string')))) throw new Error('Publication notes are invalid.');
+  const targets = {project:new Set([project.id]),character:new Set(project.characters.map(x=>x.id)),location:new Set(project.locations.map(x=>x.id)),asset:new Set(project.assets.map(x=>x.id)),scene:new Set(project.scenes.map(x=>x.id)),panel:new Set(allPanels.map(x=>x.id))};
+  for (const m of project.materials || []) for (const link of m.links) if (!targets[link.type]?.has(link.id)) throw new Error('Material link refers to a missing production item.');
   validateComicPages(project);
   if (project.contentLanguages !== undefined && (!Array.isArray(project.contentLanguages) || project.contentLanguages.some(language => typeof language !== 'string' || !language.trim()))) throw new Error('Project content languages must be a list of non-empty language labels.');
   const textVersionIds = new Set();
@@ -78,6 +82,7 @@ export function prepareImportedProject(project, existingIds, createId) {
     }
   }
   for (const scene of incoming.scenes) for (const panel of scene.panels) if (assetIdMap.has(panel.assetId)) panel.assetId = assetIdMap.get(panel.assetId);
+  if (assetIdMap.has(incoming.coverAssetId)) incoming.coverAssetId = assetIdMap.get(incoming.coverAssetId);
   for(const m of incoming.materials||[]) for(const l of m.links){if(l.type==='asset'&&assetIdMap.has(l.id))l.id=assetIdMap.get(l.id);if(l.type==='project'&&l.id===project.id)l.id=incoming.id;}
   return { project: incoming, media };
 }

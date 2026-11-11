@@ -16,6 +16,7 @@ export function validateComicPages(project) {
   for (const page of project.pages || []) {
     if (!object(page) || typeof page.id !== 'string' || !page.id.trim() || pageIds.has(page.id)) throw new Error('Comic pages must each have a unique id.');
     pageIds.add(page.id);
+    if (page.gutter !== undefined && (!Number.isFinite(page.gutter) || page.gutter < 0 || page.gutter > 28)) throw new Error('Page gutter must be between 0 and 28.');
     if (!Array.isArray(page.placements)) throw new Error(`Page “${page.title || page.id}” has invalid panel placements.`);
     const placed = new Set();
     for (const placement of page.placements) {
@@ -23,6 +24,9 @@ export function validateComicPages(project) {
       if (placed.has(placement.panelId)) throw new Error(`Page “${page.title || page.id}” places the same panel more than once.`);
       if (projectPlacedPanels.has(placement.panelId)) throw new Error(`Comic panel “${placement.panelId}” is placed on more than one page.`);
       placed.add(placement.panelId);
+      for (const [key,min,max] of [['height',80,600],['fontSize',10,30],['spacing',1,2.2],['position',0,100]]) {
+        if (placement[key] !== undefined && (!Number.isFinite(placement[key]) || placement[key]<min || placement[key]>max)) throw new Error(`Invalid panel ${key}.`);
+      }
       projectPlacedPanels.add(placement.panelId);
       if (!Number.isInteger(placement.order) || placement.order < 0) throw new Error(`Page “${page.title || page.id}” has an invalid reading order.`);
       if (!Number.isInteger(placement.span) || placement.span < 3 || placement.span > 12) throw new Error(`Page “${page.title || page.id}” has an invalid panel width.`);

@@ -44,7 +44,7 @@ export default async request => {
     if (!output) return json({ error: 'The coordinator returned no suggestions.' }, 502);
     const parsed = JSON.parse(output);
     if (!parsed || !Array.isArray(parsed.panels) || parsed.panels.length < 3 || parsed.panels.length > 8 || parsed.panels.some(panel => typeof panel.description !== 'string' || !Number.isInteger(panel.duration) || panel.duration < 1 || panel.duration > 20)) return json({ error: 'The coordinator returned suggestions in an invalid format.' }, 502);
-    return json(200, parsed);
+    return json(parsed);
   } catch (error) {
     return json({ error: error.message || 'Could not create suggestions.' }, 400);
   }
